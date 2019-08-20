@@ -18,6 +18,9 @@ public class ClientMain
 		SocketAddress socketAddress = new InetSocketAddress("127.0.0.1", 7000);
 		bootstrap.setPipelineFactory(new ClientFactory());
 		bootstrap.connect(socketAddress);
+		/**
+		 * 修改
+		 */
 	}
 
 }
